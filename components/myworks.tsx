@@ -91,7 +91,7 @@ const MyWorks = () => {
             return (
               <div
                 key={index}
-                className=" flex flex-col items-start self-start gap-2 sm:gap-4 sm:max-w-[600px] lg:justify-start lg:items-start"
+                className=" flex flex-col items-start self-start gap-3 sm:gap-4 sm:max-w-[600px] lg:justify-start lg:items-start"
               >
                 {/* Image Div */}
                 <motion.div
