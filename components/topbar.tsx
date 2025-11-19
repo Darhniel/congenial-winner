@@ -19,7 +19,7 @@ const Topbar = () => {
       <div className="flex flex-col justify-center items-center text-center w-11/12 sm:w-[90%] md:w-[80%] lg:w-[70%] m-auto mt-5">
         <motion.p
           {...namefadeInUp}
-          className="text-2xl sm:text-5xl text-[#363636]  mt-12 tracking-[-0.03rem] sm:tracking-[-0.2rem]"
+          className="text-2xl sm:text-5xl text-[#363636] mt-4 sm:mt-12 tracking-[-0.03rem] sm:tracking-[-0.2rem]"
         >
           OLOJO DANIEL
         </motion.p>
@@ -59,7 +59,7 @@ const Topbar = () => {
             transition: { duration: 0.3 },
             opacity: 0.8,
           }}
-          className="flex justify-center items-center bg-[#363636] text-[#FAFAFA] mt-[32px] sm:py-3 px-6 py-2 rounded-4xl text-sm"
+          className="flex justify-center items-center bg-[#363636] text-[#FAFAFA] mt-[32px] sm:py-3 px-6 py-3.5 rounded-4xl text-sm"
         >
           <a href="https://calendly.com/olojodaniel99/30min" target="_blank">
             Let&apos;s talk Design
