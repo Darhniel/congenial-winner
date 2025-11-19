@@ -108,11 +108,16 @@ const Projectsboard: FC<ProjectsboardProps> = (props) => {
   };
   const { button, title, description, id, websitelink, applink } = props;
   return (
-    <div className="flex flex-col mt-32 sm:mt-40">
+    <div className="flex flex-col mt-6 sm:mt-40">
       <div className="flex max-w-screen items-start">
         <div className="flex flex-col  gap-6 mx-5 sm:mx-[80px]">
-          <button onClick={goToWorks}
-            className="flex justify-start sm:mb-[25px] text-[16px] text-[#808080] font-medium gap-[12px] cursor-pointer"><MoveLeft size={24} /> <span>Back</span></button>
+          <button 
+            onClick={goToWorks}
+            className="flex justify-start sm:mb-[25px] text-[12px] text-[#808080] font-medium gap-[12px] cursor-pointer"
+          >
+            <MoveLeft size={16} /> 
+            <span>Back</span>
+          </button>
           <motion.div {...buttonScale} className="flex flex-row gap-2 py-2">
             {button.map((item, index) => (
               <button
