@@ -22,7 +22,7 @@ const Navbar = () => {
             className="w-[120px] md:w-[180px]"
           />
         </Link>
-        <div className="h-9 md:h-10 w-36 rounded-4xl bg-[#363636] text-[#FAFAFA] border border-[#000000] text-center flex justify-center items-center">
+        <div className="h-9 md:h-10 w-32 md:w-36 rounded-4xl bg-[#363636] text-[#FAFAFA] border border-[#000000] text-center flex justify-center items-center">
           <a href="mailto:olojodaniel99@gmail.com" target="_blank">
             Work with me{" "}
           </a>
