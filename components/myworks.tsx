@@ -91,7 +91,7 @@ const MyWorks = () => {
             return (
               <div
                 key={index}
-                className=" flex flex-col items-start self-start gap-3 sm:gap-4 sm:max-w-[600px] lg:justify-start lg:items-start"
+                className=" flex flex-col items-start self-start gap-4 sm:gap-4 sm:max-w-[600px] lg:justify-start lg:items-start"
               >
                 {/* Image Div */}
                 <motion.div
@@ -108,7 +108,7 @@ const MyWorks = () => {
                     className="w-full max-w-[400px] lg:max-w-[500px] sm:max-h-[341px] cursor-pointer  "
                   />
                 </motion.div>
-                <motion.div {...nameScale} className="flex flex-col gap-2">
+                <motion.div {...nameScale} className="flex flex-col gap-1">
                   <p className="text-[#808080] sm:text-sm text-xs font-normal">
                     {description}
                   </p>
