@@ -113,7 +113,7 @@ const Projectsboard: FC<ProjectsboardProps> = (props) => {
         <div className="flex flex-col  gap-6 mx-5 sm:mx-[80px]">
           <button 
             onClick={goToWorks}
-            className="flex justify-start sm:mb-[25px] text-[12px] text-[#808080] font-medium gap-[12px] cursor-pointer"
+            className="flex justify-start sm:mb-[25px] text-[12px] text-[#808080] font-medium gap-[12px] cursor-pointer w-fit"
           >
             <MoveLeft size={16} /> 
             <span>Back</span>
